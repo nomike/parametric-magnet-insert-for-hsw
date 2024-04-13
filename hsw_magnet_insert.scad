@@ -27,6 +27,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 include <hws_openscad_attachments_and_connectors/hws_insert_util.scad>
 
+/* [User Parameters] */
+
+magnet_diameter = 15;
+magnet_height = 2;
+pushout_hole = 4;
+
 /* [Setup Parameters] */
 $fa = 8;
 $fs = 0.25;
@@ -53,6 +59,6 @@ structure = [[2]];
 
 difference() {
     insert_plug_adv(structure);
-    cylinder(d=15, h=2, $fn=128);
-    cylinder(d=4, h=10);
+    cylinder(d=magnet_diameter, h=magnet_height, $fn=128);
+    cylinder(d=pushout_hole, h=insert_height);
 }
