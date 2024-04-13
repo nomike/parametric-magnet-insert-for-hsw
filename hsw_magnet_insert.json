@@ -1,0 +1,9 @@
+{
+    "parameterSets": {
+        "16x2": {
+            "magnet_diameter": "15",
+            "magnet_height": "2"
+        }
+    },
+    "fileFormatVersion": "1"
+}
