@@ -1,11 +1,9 @@
 An insert for the honeycomb storage wall which holds a disc magnet.
 This allows for objects which are ferromagnetic to be stored on the wall easily.
 
-The design features a small hole which allows for the magnet to be pushed out
-from the back side.
+The design features a small hole which allows for the magnet to be pushed out from the back side.
 
-If you put in the exact diameter of your magnet you will be able to press-fit
-it without using glue.
+If you put in the exact diameter of your magnet you will be able to press-fit it without using glue.
 
 #### Acknowledgements
 
